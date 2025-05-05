@@ -26,7 +26,7 @@ body {
 .fh {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .fv {
@@ -125,8 +125,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -182,14 +182,14 @@ body {
   margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.experiences__year-header-durability {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-header-name {
+.experiences__year-header-name {
   color: var(--primary-text-color);
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
@@ -197,25 +197,25 @@ body {
   margin-bottom: 20px;
 }
 
-.experiences__company-project {
+.experiences__year-event {
   margin-left: 15px;
   margin-bottom: 25px;
 }
 
-.experiences__company-project-role {
+.experiences__year-event-role {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__year-event-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__year-event-list {
   color: var(--secondary-text-color);
   padding-left: 20px;
 }
