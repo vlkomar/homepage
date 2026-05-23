@@ -86,6 +86,10 @@ body {
   margin-bottom: 30px;
 }
 
+.contact_info_container {
+  justify-content: space-around;
+}
+
 .contact-info__block {
   display: flex;
   flex-direction: column;
@@ -125,8 +129,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -231,6 +235,10 @@ body {
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university {
   margin-bottom: 20px;
 }
 
